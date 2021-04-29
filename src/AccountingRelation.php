@@ -5,6 +5,7 @@ class AccountingRelation {
     protected ?int $id = null;
     protected ?\DateTime $add_date = null;
     protected int $code = 0;
+	protected string $bp = 'B';
     protected string $company = '';
     protected ?string $contact = null;
     protected ?string $gender = null;
