@@ -1,0 +1,20 @@
+{
+    "name": "universenl/laravel_account_base",
+    "description": "Laravel accounting",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitch Daniels",
+            "email": "info@grimbon.nl"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dvb\\Accounting\\": "src/"
+        }
+    }
+}
